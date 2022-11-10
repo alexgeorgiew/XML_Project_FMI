@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!ENTITY godfatherpic SYSTEM "images/TheGodfather.jpg">
+<!ENTITY titanicpic SYSTEM "images/Titanic.jpg">
+<!ENTITY kingkongpic SYSTEM "images/KingKong.jpg">
+<!ENTITY rockypic SYSTEM "images/Rocky.jpg">
+<!ENTITY meetjoeblackpic SYSTEM "images/MeetJoeBlack.jpg">
+<!ENTITY gottipic SYSTEM "images/Gotti.jpg">
+<!ENTITY scarafacepic SYSTEM "images/Scarface.jpg">
+<!ENTITY dangalpic SYSTEM "images/Dangal.jpg">
 
 <!ELEMENT movies (movie+)>
 <!ELEMENT movie (title,image,year,genre,production,director,movie-stars)>
-
-<!ENTITY godfatherpic SYSTEM "images/TheGodfather.jpg">
+<!ATTLIST movie id ID #REQUIRED>
 
 <!ELEMENT title (#PCDATA)>
-<!ELEMENT image (#PCDATA)>
+<!ELEMENT image (ENTITY)>
 <!ELEMENT year (#PCDATA)>
 <!ELEMENT genre (#PCDATA)>
 

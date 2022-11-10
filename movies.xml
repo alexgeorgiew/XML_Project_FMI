@@ -2,131 +2,164 @@
 <!DOCTYPE movies SYSTEM "validation.dtd">
 
 <movies>
-	<movie>
+	<movie id="ID01">
 		<title>The Godfather</title>
-		<image>&godfatherpic;</image>
-		<year></year>
-		<genre> </genre>
+		<image>godfatherpic</image>
+		<year>1972</year>
+		<genre>Criminal,Gangster</genre>
 		<production>
-			<studio> </studio>
-			<cost> </cost>
+			<studio>Paramount Pictures</studio>
+			<cost>7 million usd</cost>
 		</production>
-		<director> </director>
+		<director>Francis Ford Coppola</director>
 		<movie-stars>
 			<actor>
-				<name> </name>
+				<name>Marlon Brando</name>
+			</actor>
+			<actor>
+				<name>Al Pacino</name>
+			</actor>
+			<actor>
+				<name>James Caan</name>
+			</actor>
+			<actor>
+				<name>Richard Castellano</name>
+			</actor>
+			<actor>
+				<name>Robert Duvall</name>
+			</actor>
+		</movie-stars>
+	</movie>
+	<movie id="ID02">
+		<title>King Kong</title>
+		<image>kingkongpic</image>
+		<year>2005</year>
+		<genre>Adventure,Action,Fantasy</genre>
+		<production>
+			<studio>Universal Pictures</studio>
+			<cost>207 million usd</cost>
+		</production>
+		<director>Peter Jackson</director>
+		<movie-stars>
+			<actor>
+				<name>Adrien Brody</name>
+			</actor>
+			<actor>
+				<name>Jack Black</name>
+			</actor>
+			<actor>
+				<name>Andrew Serkins</name>
+			</actor>
+		</movie-stars>
+	</movie>
+	<movie id="">
+		<title>Titanic</title>
+		<image>titanicpic</image>
+		<year>1997</year>
+		<genre>Romance,History,Drama</genre>
+		<production>
+			<studio>Paramount Pictures</studio>
+			<cost>200 million usd</cost>
+		</production>
+		<director>James Cameron</director>
+		<movie-stars>
+			<actor>
+				<name>Leonardo DiCaprio</name>
+			</actor>
+			<actor>
+				<name>Kate Winslet</name>
 			</actor>
 		</movie-stars>
 	</movie>
 	<movie>
-		<title> </title>
-		<image></image>
-		<year> </year>
-		<genre> </genre>
+		<title>Rocky</title>
+		<image>rockypic</image>
+		<year>1976</year>
+		<genre>Sports,Drama</genre>
 		<production>
-			<studio> </studio>
-			<cost> </cost>
+			<studio>Chartoff-Winkler Productions</studio>
+			<cost>4.83 million usd</cost>
 		</production>
-		<director> </director>
+		<director>John G. Avildsen</director>
 		<movie-stars>
 			<actor>
-				<name> </name>
+				<name>Sylvester Stallone</name>
+			</actor>
+			<actor>
+				<name>Talia Shire</name>
+			</actor>
+			<actor>
+				<name>Burt Young</name>
 			</actor>
 		</movie-stars>
 	</movie>
 	<movie>
-		<title> </title>
-		<image></image>
-		<year> </year>
-		<genre> </genre>
+		<title>Meet Joe Black</title>
+		<image>meetjoeblackpic</image>
+		<year>1998</year>
+		<genre>Drama,Romance</genre>
 		<production>
-			<studio> </studio>
-			<cost> </cost>
+			<studio>City Light Films</studio>
+			<cost>90 million usd</cost>
 		</production>
-		<director> </director>
+		<director>Marint Brest</director>
 		<movie-stars>
 			<actor>
-				<name> </name>
+				<name>Brad Pitt</name>
+			</actor>
+			<actor>
+				<name>Anthony Hopkins</name>
+			</actor>
+			<actor>
+				<name>Claire Forlani</name>
 			</actor>
 		</movie-stars>
 	</movie>
 	<movie>
-		<title> </title>
-		<image></image>
-		<year> </year>
-		<genre> </genre>
+		<title>Gotti</title>
+		<image>gottipic</image>
+		<year>2018</year>
+		<genre>Biographical,Crime</genre>
 		<production>
-			<studio> </studio>
-			<cost> </cost>
+			<studio>Emmett Furla Oasis Films</studio>
+			<cost>10 million usd</cost>
 		</production>
-		<director> </director>
+		<director>Kevin Connolly</director>
 		<movie-stars>
 			<actor>
-				<name> </name>
+				<name>John Travolta</name>
 			</actor>
 		</movie-stars>
 	</movie>
 	<movie>
-		<title> </title>
-		<image></image>
-		<year> </year>
-		<genre> </genre>
+		<title>Scarface</title>
+		<image>scarfacepic</image>
+		<year>1983</year>
+		<genre>Crime,Drama</genre>
 		<production>
-			<studio> </studio>
-			<cost> </cost>
+			<studio>Universal Pictures</studio>
+			<cost>35 million usd</cost>
 		</production>
-		<director> </director>
+		<director>Brian De Palma</director>
 		<movie-stars>
 			<actor>
-				<name> </name>
+				<name>Al Pacino</name>
 			</actor>
 		</movie-stars>
 	</movie>
 	<movie>
-		<title> </title>
-		<image></image>
-		<year> </year>
-		<genre> </genre>
+		<title>Dangal</title>
+		<image>dangalpic</image>
+		<year>2016</year>
+		<genre>Sports,Drama</genre>
 		<production>
-			<studio> </studio>
-			<cost> </cost>
+			<studio>Aamir Khan Production</studio>
+			<cost>10 million usd</cost>
 		</production>
-		<director> </director>
+		<director>Nitesh Tiwari</director>
 		<movie-stars>
 			<actor>
-				<name> </name>
-			</actor>
-		</movie-stars>
-	</movie>
-	<movie>
-		<title> </title>
-		<image></image>
-		<year> </year>
-		<genre> </genre>
-		<production>
-			<studio> </studio>
-			<cost> </cost>
-		</production>
-		<director> </director>
-		<movie-stars>
-			<actor>
-				<name> </name>
-			</actor>
-		</movie-stars>
-	</movie>
-	<movie>
-		<title> </title>
-		<image></image>
-		<year> </year>
-		<genre> </genre>
-		<production>
-			<studio> </studio>
-			<cost> </cost>
-		</production>
-		<director> </director>
-		<movie-stars>
-			<actor>
-				<name> </name>
+				<name>Aamir Khan</name>
 			</actor>
 		</movie-stars>
 	</movie>
