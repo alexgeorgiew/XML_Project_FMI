@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!ELEMENT movies (movie+)>
+<!ELEMENT movie (title,image,year,genre,production,director,movie-stars)>
+
+<!ENTITY godfatherpic SYSTEM "images/TheGodfather.jpg">
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+
+<!ELEMENT production (studio,cost)>
+<!ELEMENT studio (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>
+
+<!ELEMENT director (#PCDATA)>
+
+<!ELEMENT movie-stars (actor+)>
+<!ELEMENT actor (name)>
+<!ELEMENT name (#PCDATA)> 
+
+

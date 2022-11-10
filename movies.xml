@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE movies SYSTEM "validation.dtd">
+
+<movies>
+	<movie>
+		<title>The Godfather</title>
+		<image>&godfatherpic;</image>
+		<year></year>
+		<genre> </genre>
+		<production>
+			<studio> </studio>
+			<cost> </cost>
+		</production>
+		<director> </director>
+		<movie-stars>
+			<actor>
+				<name> </name>
+			</actor>
+		</movie-stars>
+	</movie>
+	<movie>
+		<title> </title>
+		<image></image>
+		<year> </year>
+		<genre> </genre>
+		<production>
+			<studio> </studio>
+			<cost> </cost>
+		</production>
+		<director> </director>
+		<movie-stars>
+			<actor>
+				<name> </name>
+			</actor>
+		</movie-stars>
+	</movie>
+	<movie>
+		<title> </title>
+		<image></image>
+		<year> </year>
+		<genre> </genre>
+		<production>
+			<studio> </studio>
+			<cost> </cost>
+		</production>
+		<director> </director>
+		<movie-stars>
+			<actor>
+				<name> </name>
+			</actor>
+		</movie-stars>
+	</movie>
+	<movie>
+		<title> </title>
+		<image></image>
+		<year> </year>
+		<genre> </genre>
+		<production>
+			<studio> </studio>
+			<cost> </cost>
+		</production>
+		<director> </director>
+		<movie-stars>
+			<actor>
+				<name> </name>
+			</actor>
+		</movie-stars>
+	</movie>
+	<movie>
+		<title> </title>
+		<image></image>
+		<year> </year>
+		<genre> </genre>
+		<production>
+			<studio> </studio>
+			<cost> </cost>
+		</production>
+		<director> </director>
+		<movie-stars>
+			<actor>
+				<name> </name>
+			</actor>
+		</movie-stars>
+	</movie>
+	<movie>
+		<title> </title>
+		<image></image>
+		<year> </year>
+		<genre> </genre>
+		<production>
+			<studio> </studio>
+			<cost> </cost>
+		</production>
+		<director> </director>
+		<movie-stars>
+			<actor>
+				<name> </name>
+			</actor>
+		</movie-stars>
+	</movie>
+	<movie>
+		<title> </title>
+		<image></image>
+		<year> </year>
+		<genre> </genre>
+		<production>
+			<studio> </studio>
+			<cost> </cost>
+		</production>
+		<director> </director>
+		<movie-stars>
+			<actor>
+				<name> </name>
+			</actor>
+		</movie-stars>
+	</movie>
+	<movie>
+		<title> </title>
+		<image></image>
+		<year> </year>
+		<genre> </genre>
+		<production>
+			<studio> </studio>
+			<cost> </cost>
+		</production>
+		<director> </director>
+		<movie-stars>
+			<actor>
+				<name> </name>
+			</actor>
+		</movie-stars>
+	</movie>
+</movies>
+
