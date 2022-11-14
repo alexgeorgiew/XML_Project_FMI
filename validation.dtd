@@ -1,18 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!ELEMENT movies (movie+)>
-<!ELEMENT movie (title,year,genre,production,director,movie-stars)>
+<!ENTITY godfatherpic "images/TheGodfather.jpg">
+<!ENTITY titanicpic "images/Titanic.jpg">
+<!ENTITY kingkongpic "images/KingKong.jpg">
+<!ENTITY rockypic "images/Rocky.jpg">
+<!ENTITY meetjoeblackpic "images/MeetJoeBlack.jpg">
+<!ENTITY gottipic "images/Gotti.jpg">
+<!ENTITY scarafacepic "images/Scarface.jpg">
+<!ENTITY dangalpic "images/Dangal.jpg">
+
+<!ELEMENT movies (movie+,alldirectors,allstudios)>
+<!ELEMENT movie (title,image,year,genre,production,directorref,movie-stars)>
+
 <!ELEMENT title (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
 <!ELEMENT year (#PCDATA)>
 <!ELEMENT genre (#PCDATA)>
 
-<!ELEMENT production (studio,cost)>
-<!ELEMENT studio (#PCDATA)>
+<!ELEMENT production (studioref,cost)>
+<!ELEMENT studioref (#PCDATA)>
+<!ATTLIST studioref target IDREF #REQUIRED>
 <!ELEMENT cost (#PCDATA)>
 
-<!ELEMENT director (#PCDATA)>
+<!ELEMENT directorref (#PCDATA)>
+<!ATTLIST directorref target IDREF #REQUIRED>
 
 <!ELEMENT movie-stars (actor+)>
 <!ELEMENT actor (name)>
 <!ELEMENT name (#PCDATA)>
+
+<!ELEMENT alldirectors (director+)>
+<!ELEMENT director (#PCDATA)>
+<!ATTLIST director destination ID #REQUIRED>
+
+<!ELEMENT allstudios (studio+)>
+<!ELEMENT studio (#PCDATA)>
+<!ATTLIST studio destination ID #REQUIRED>
+
+
+
 

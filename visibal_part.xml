@@ -1,0 +1,8 @@
+<?xml version="1.0"?> 
+<!DOCTYPE dog [ 
+<!NOTATION JPEG SYSTEM "Joint Photographic Experts Group"> 
+<!ENTITY colliepic SYSTEM "images/TheGodfather.jpg" NDATA JPEG>
+<!ELEMENT dog EMPTY> 
+<!ATTLIST dog picfile ENTITY #REQUIRED> 
+]> 
+<dog picfile="colliepic"/> 
