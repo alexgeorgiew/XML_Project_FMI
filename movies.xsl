@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format">
 
-<xsl:template match="movie">
+<xsl:template match="movies">
 	<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
 	<fo:layout-master-set>
 		<fo:simple-page-master page-height="297mm" page-width="210mm" margin="5mm 25mm 5mm 25mm" master-name="PageMaster">
@@ -19,6 +19,9 @@
 		</fo:flow>
 	</fo:page-sequence>
 	</fo:root>
+</xsl:template>
+<xsl:template match="movie">
+  
 </xsl:template>
 
 </xsl:stylesheet> 
