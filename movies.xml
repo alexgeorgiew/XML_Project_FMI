@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE movies SYSTEM "validation.dtd">
+<!DOCTYPE movies SYSTEM "validation.dtd" [
+<!ENTITY godfatherpic "images/TheGodfather.jpg">
+<!ENTITY titanicpic "images/Titanic.jpg">
+<!ENTITY kingkongpic "images/KingKong.jpg">
+<!ENTITY rockypic "images/Rocky.jpg">
+<!ENTITY meetjoeblackpic "images/MeetJoeBlack.jpg">
+<!ENTITY gottipic "images/Gotti.jpg">
+<!ENTITY scarafacepic "images/Scarface.jpg">
+<!ENTITY dangalpic "images/Dangal.jpg">
+]>
 
 <movies>
 	<movie>
