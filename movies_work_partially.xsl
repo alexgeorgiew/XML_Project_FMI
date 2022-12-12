@@ -24,7 +24,8 @@
 				</fo:block>
 			<fo:block>
                                       
-                                              <fo:external-graphic src="" height="2.00in" width="2.00in"/>
+					  <xsl:variable name="img" select="image" /> 
+                                              <fo:external-graphic src="{$img}" height="2.00in" width="2.00in"/>
 				    
 				</fo:block>
 			<fo:block>
