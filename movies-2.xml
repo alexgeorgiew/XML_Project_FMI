@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<movies>
+	<movie>
+		<title>The Godfather</title>
+		<image>images/TheGodfather.jpg</image>
+		<year>1972</year>
+		<genre>Criminal,Gangster</genre>
+		<production>
+			<studioref target="studioID01"></studioref>
+			<cost>7 million usd</cost>
+		</production>
+		<directorref target="ID01"></directorref>
+		<movie-stars>
+			<actor>
+				<name>Marlon Brando</name>
+			</actor>
+			<actor>
+				<name>Al Pacino</name>
+			</actor>
+			<actor>
+				<name>James Caan</name>
+			</actor>
+			<actor>
+				<name>Richard Castellano</name>
+			</actor>
+			<actor>
+				<name>Robert Duvall</name>
+			</actor>
+		</movie-stars>
+	</movie>
+	<movie>
+		<title>King Kong</title>
+		<image>images/KingKong.jpg</image>
+		<year>2005</year>
+		<genre>Adventure,Action,Fantasy</genre>
+		<production>
+			<studioref target="studioID02"></studioref>
+			<cost>207 million usd</cost>
+		</production>
+		<directorref target="ID02"></directorref>
+		<movie-stars>
+			<actor>
+				<name>Adrien Brody</name>
+			</actor>
+			<actor>
+				<name>Jack Black</name>
+			</actor>
+			<actor>
+				<name>Andrew Serkins</name>
+			</actor>
+		</movie-stars>
+	</movie>
+	<movie>
+		<title>Titanic</title>
+		<image>images/Titanic.jpg</image>
+		<year>1997</year>
+		<genre>Romance,History,Drama</genre>
+		<production>
+			<studioref target="studioID01"></studioref>
+			<cost>200 million usd</cost>
+		</production>
+		<directorref target="ID03"></directorref>
+		<movie-stars>
+			<actor>
+				<name>Leonardo DiCaprio</name>
+			</actor>
+			<actor>
+				<name>Kate Winslet</name>
+			</actor>
+		</movie-stars>
+	</movie>
+	<movie>
+		<title>Rocky</title>
+		<image>images/Rocky.jpg</image>
+		<year>1976</year>
+		<genre>Sports,Drama</genre>
+		<production>
+			<studioref target="studioID03"></studioref>
+			<cost>4.83 million usd</cost>
+		</production>
+		<directorref target="ID04"></directorref>
+		<movie-stars>
+			<actor>
+				<name>Sylvester Stallone</name>
+			</actor>
+			<actor>
+				<name>Talia Shire</name>
+			</actor>
+			<actor>
+				<name>Burt Young</name>
+			</actor>
+		</movie-stars>
+	</movie>
+	<movie>
+		<title>Meet Joe Black</title>
+		<image>images/MeetJoeBlack.jpg</image>
+		<year>1998</year>
+		<genre>Drama,Romance</genre>
+		<production>
+			<studioref target="studioID04"></studioref>
+			<cost>90 million usd</cost>
+		</production>
+		<directorref target="ID05"></directorref>
+		<movie-stars>
+			<actor>
+				<name>Brad Pitt</name>
+			</actor>
+			<actor>
+				<name>Anthony Hopkins</name>
+			</actor>
+			<actor>
+				<name>Claire Forlani</name>
+			</actor>
+		</movie-stars>
+	</movie>
+	<movie>
+		<title>Gotti</title>
+		<image>images/Gotti.jpg</image>
+		<year>2018</year>
+		<genre>Biographical,Crime</genre>
+		<production>
+			<studioref target="studioID05"></studioref>
+			<cost>10 million usd</cost>
+		</production>
+		<directorref target="ID06"></directorref>
+		<movie-stars>
+			<actor>
+				<name>John Travolta</name>
+			</actor>
+		</movie-stars>
+	</movie>
+	<movie>
+		<title>Scarface</title>
+		<image>images/Scarface.jpg</image>
+		<year>1983</year>
+		<genre>Crime,Drama</genre>
+		<production>
+			<studioref target="studioID02"></studioref>
+			<cost>35 million usd</cost>
+		</production>
+		<directorref target="ID07"></directorref>
+		<movie-stars>
+			<actor>
+				<name>Al Pacino</name>
+			</actor>
+		</movie-stars>
+	</movie>
+	<movie>
+		<title>Dangal</title>
+		<image>images/Dangal.jpg</image>
+		<year>2016</year>
+		<genre>Sports,Drama</genre>
+		<production>
+			<studioref target="studioID06"></studioref>
+			<cost>10 million usd</cost>
+		</production>
+		<directorref target="ID08"></directorref>
+		<movie-stars>
+			<actor>
+				<name>Aamir Khan</name>
+			</actor>
+		</movie-stars>
+	</movie>
+	<alldirectors>
+		<director destination="ID01">Francis Ford Coppola</director>
+		<director destination="ID02">Peter Jackson</director>
+		<director destination="ID03">James Cameron</director>
+		<director destination="ID04">John G. Avildsen</director>
+		<director destination="ID05">Marint Brest</director>
+		<director destination="ID06">Kevin Connolly</director>
+		<director destination="ID07">Brian De Palma</director>
+		<director destination="ID08">Nitesh Tiwari</director>
+	</alldirectors>
+	<allstudios>
+		<studio destination="studioID01">Paramount Pictures</studio>
+		<studio destination="studioID02">Universal Pictures</studio>
+		<studio destination="studioID03">Chartoff-Winkler Productions</studio>
+		<studio destination="studioID04">City Light Films</studio>
+		<studio destination="studioID05">Emmett Furla Oasis Films</studio>
+		<studio destination="studioID06">Aamir Khan Production</studio>
+	</allstudios>
+</movies>
+
