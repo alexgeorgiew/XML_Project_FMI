@@ -6,7 +6,7 @@
 <!ENTITY rockypic "images/Rocky.jpg">
 <!ENTITY meetjoeblackpic "images/MeetJoeBlack.jpg">
 <!ENTITY gottipic "images/Gotti.jpg">
-<!ENTITY scarafacepic "images/Scarface.jpg">
+<!ENTITY scarfacepic "images/Scarface.jpg">
 <!ENTITY dangalpic "images/Dangal.jpg">
 
 <!ELEMENT movies (movie+,alldirectors,allstudios)>
